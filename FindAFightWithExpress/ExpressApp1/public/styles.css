@@ -1,0 +1,148 @@
+
+body {
+    background-color: white;
+    font-family :"Montserrat", sans-serif;
+    text-align:center;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+p {
+    color: gray;
+    font-size: 1.5rem;
+}
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.PhonePhoto {
+    width: 50%;
+    transform: rotate(20deg);
+    z-index=1;
+}
+@media (max-width:1028px){
+    .PhonePhoto{
+        position:static;
+        transform:rotate(0);
+        width:100%;
+    }
+    .IntroText{
+        text-align:center;
+    }
+}
+.TestiImage {
+    width: 15%;
+    border-radius: 100%;
+    margin: 3%;
+    text-align: left;
+}
+
+.PressImg {
+    padding: 5%;
+}
+
+.TopBoy {
+    z-index: 2;
+}
+.navbar-brand {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.nav-option {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+.nav-link{
+    font-size:1.25rem;
+}
+.downloadbtn{
+    margin-right:2.5%;
+    margin-left:2.5%;
+}
+
+.FeaturedSec {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.PriceDiv{
+    padding-right:5%;
+    padding-left:5%;
+}
+.boldtext {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.iconFeature {
+    color: #cc000c;
+    padding-bottom:15%;
+}
+.iconFeature:hover{
+    color: lightcoral;
+}
+
+.carousel-item {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#title {
+    background-color: #cc000c;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+#IntroText {
+    padding-top: 40%;
+    text-align:left;
+}
+
+#IntroPhoto {
+    padding-top: 15%;
+}
+
+#titletxt {
+    padding-bottom: 15%;
+}
+#features {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+#testimonials {
+    background-color: #cc000c; 
+    color: black;
+}
+
+#press {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: white;
+    color: black;
+}
+#pricing {
+    background-color: white;
+    color: black;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+#cta {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #cc000c;
+}
+
+#footer {
+    background-color: #cc000c;
+}
+
+
